@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Gold Metallic Gradients -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE57F"/>
+      <stop offset="35%" stop-color="#F5B800"/>
+      <stop offset="70%" stop-color="#D9A514"/>
+      <stop offset="100%" stop-color="#8F6702"/>
+    </linearGradient>
+    <linearGradient id="innerDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1A1A"/>
+      <stop offset="50%" stop-color="#0A0A0A"/>
+      <stop offset="100%" stop-color="#020202"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="45%" r="40%">
+      <stop offset="0%" stop-color="rgba(245, 184, 0, 0.4)"/>
+      <stop offset="60%" stop-color="rgba(245, 184, 0, 0.1)"/>
+      <stop offset="100%" stop-color="rgba(0, 0, 0, 0)"/>
+    </radialGradient>
+    
+    <!-- Text Paths -->
+    <!-- Top Arc for SUNRISE MOTOR WORK'S -->
+    <path id="topArc" d="M 65 250 A 185 185 0 0 1 435 250" fill="none" />
+    <!-- Bottom Arc for DIVA • ESTD 2010 -->
+    <path id="bottomArc" d="M 425 250 A 175 175 0 0 1 75 250" fill="none" />
+  </defs>
+
+  <!-- Outer Ring Background -->
+  <circle cx="250" cy="250" r="240" fill="#080808" stroke="url(#goldGrad)" stroke-width="6"/>
+
+  <!-- Gear/Notch Accents around outer edge -->
+  <g stroke="url(#goldGrad)" stroke-width="3" opacity="0.6">
+    <circle cx="250" cy="250" r="230" fill="none" stroke-dasharray="3, 10" stroke-width="4"/>
+  </g>
+
+  <!-- Middle Gold Ring -->
+  <circle cx="250" cy="250" r="220" fill="#0D0D0D" stroke="url(#goldGrad)" stroke-width="4"/>
+
+  <!-- Inner Dark Medallion -->
+  <circle cx="250" cy="250" r="145" fill="url(#innerDark)" stroke="url(#goldGrad)" stroke-width="3"/>
+  
+  <!-- Subtle Sunburst Glow in Center -->
+  <circle cx="250" cy="235" r="140" fill="url(#sunGlow)"/>
+
+  <!-- Sun Rays Radiating from Center -->
+  <g stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.35">
+    <line x1="250" y1="210" x2="250" y2="120" />
+    <line x1="250" y1="210" x2="285" y2="128" />
+    <line x1="250" y1="210" x2="315" y2="148" />
+    <line x1="250" y1="210" x2="335" y2="180" />
+    <line x1="250" y1="210" x2="340" y2="215" />
+    <line x1="250" y1="210" x2="215" y2="128" />
+    <line x1="250" y1="210" x2="185" y2="148" />
+    <line x1="250" y1="210" x2="165" y2="180" />
+    <line x1="250" y1="210" x2="160" y2="215" />
+  </g>
+
+  <!-- Top Text: SUNRISE MOTOR WORK'S -->
+  <text font-family="'Rajdhani', 'Oswald', sans-serif" font-size="28" font-weight="700" fill="url(#goldGrad)" letter-spacing="4">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">
+      SUNRISE MOTOR WORK'S
+    </textPath>
+  </text>
+
+  <!-- Bottom Text: • DIVA • ESTD 2010 • -->
+  <text font-family="'Rajdhani', 'Inter', sans-serif" font-size="20" font-weight="600" fill="#E5E7EB" letter-spacing="6">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">
+      ★ DIVA • ESTD 2010 ★
+    </textPath>
+  </text>
+
+  <!-- Side Stars -->
+  <path d="M 80 250 l 4 7 l 8 1 l -6 6 l 1 8 l -7 -4 l -7 4 l 1 -8 l -6 -6 l 8 -1 z" fill="url(#goldGrad)"/>
+  <path d="M 420 250 l 4 7 l 8 1 l -6 6 l 1 8 l -7 -4 l -7 4 l 1 -8 l -6 -6 l 8 -1 z" fill="url(#goldGrad)"/>
+
+  <!-- VINTAGE CAR SILHOUETTE (Classic 1930s Coupe / Tourer) -->
+  <g transform="translate(140, 205) scale(0.72)">
+    <!-- Vintage Car Body & Fenders -->
+    <!-- Car shadow/ground line -->
+    <path d="M 10 130 Q 150 133 300 130" stroke="url(#goldGrad)" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Main Body Shape -->
+    <path d="M 35 110 
+             C 45 90, 75 88, 90 102 
+             C 95 85, 115 70, 135 68 
+             L 175 68 
+             C 185 52, 205 45, 230 45 
+             L 245 45 
+             C 260 45, 275 58, 280 72 
+             L 295 88 
+             C 305 92, 310 98, 305 110 
+             L 270 110 
+             C 265 95, 240 92, 230 108 
+             L 125 108 
+             C 118 95, 95 95, 85 110 
+             Z" 
+          fill="url(#goldGrad)" />
+
+    <!-- Vintage Cabin & Roof -->
+    <path d="M 140 68 
+             C 145 42, 165 30, 195 28 
+             L 230 28 
+             C 245 28, 255 35, 260 48 
+             L 245 48 
+             C 220 48, 195 55, 185 68 
+             Z" 
+          fill="#FFF3BF" opacity="0.9"/>
+
+    <!-- Windows (Split Windshield & Rear Quarter) -->
+    <path d="M 198 34 L 225 34 L 218 52 L 188 52 Z" fill="#0A0A0A" />
+    <path d="M 160 38 L 190 36 L 180 52 L 155 52 Z" fill="#0A0A0A" />
+
+    <!-- Front & Rear Vintage Spoke Wheels -->
+    <!-- Front Wheel -->
+    <circle cx="85" cy="112" r="22" fill="#050505" stroke="url(#goldGrad)" stroke-width="5"/>
+    <circle cx="85" cy="112" r="13" fill="none" stroke="url(#goldGrad)" stroke-width="2"/>
+    <circle cx="85" cy="112" r="5" fill="url(#goldGrad)"/>
+    <line x1="85" y1="90" x2="85" y2="134" stroke="url(#goldGrad)" stroke-width="1.5"/>
+    <line x1="63" y1="112" x2="107" y2="112" stroke="url(#goldGrad)" stroke-width="1.5"/>
+    <line x1="69" y1="96" x2="101" y2="128" stroke="url(#goldGrad)" stroke-width="1.5"/>
+    <line x1="69" y1="128" x2="101" y2="96" stroke="url(#goldGrad)" stroke-width="1.5"/>
+
+    <!-- Rear Wheel -->
+    <circle cx="250" cy="112" r="22" fill="#050505" stroke="url(#goldGrad)" stroke-width="5"/>
+    <circle cx="250" cy="112" r="13" fill="none" stroke="url(#goldGrad)" stroke-width="2"/>
+    <circle cx="250" cy="112" r="5" fill="url(#goldGrad)"/>
+    <line x1="250" y1="90" x2="250" y2="134" stroke="url(#goldGrad)" stroke-width="1.5"/>
+    <line x1="228" y1="112" x2="272" y2="112" stroke="url(#goldGrad)" stroke-width="1.5"/>
+    <line x1="234" y1="96" x2="266" y2="128" stroke="url(#goldGrad)" stroke-width="1.5"/>
+    <line x1="234" y1="128" x2="266" y2="96" stroke="url(#goldGrad)" stroke-width="1.5"/>
+
+    <!-- Classic Front Grille & Headlamp -->
+    <path d="M 32 86 C 30 76, 25 76, 24 88 C 23 98, 30 102, 35 104 Z" fill="url(#goldGrad)"/>
+    <circle cx="42" cy="88" r="7" fill="#FFE57F" stroke="url(#goldGrad)" stroke-width="2"/>
+    <path d="M 22 108 L 30 108" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
